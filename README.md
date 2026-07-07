@@ -9,16 +9,16 @@
 </p>
 
 <p align="center">
-TaskPilot is designed to simplify personal task management through smart prioritization, automated reminders, and persistent local storage — all within a lightweight command-line interface.
+TaskPilot simplifies personal task management through smart prioritization, automated reminders, and persistent local storage within a lightweight command-line interface.
 </p>
 
 ---
 
 ## 📖 Overview
 
-TaskPilot is a console-based task management application developed using modern C++. It enables users to efficiently organize, prioritize, and monitor their daily tasks through an interactive command-line interface.
+TaskPilot is a console-based task management application developed using Modern C++. It enables users to efficiently organize, prioritize, and monitor daily tasks through an interactive command-line interface.
 
-The application combines object-oriented programming with efficient data structures to provide intelligent task scheduling, deadline tracking, reminder notifications, and persistent CSV-based storage. It serves as a practical implementation of modern C++ concepts including STL, multithreading, regular expressions, and file handling.
+The application combines object-oriented programming with efficient data structures to provide intelligent task scheduling, deadline tracking, reminder notifications, and persistent CSV-based storage. It demonstrates practical usage of Modern C++ features including STL, multithreading, regular expressions, and file handling.
 
 ---
 
@@ -26,7 +26,7 @@ The application combines object-oriented programming with efficient data structu
 
 - Create, update, and delete tasks
 - Assign priorities and deadlines
-- Intelligent task recommendation using Priority Queue
+- Intelligent task recommendation using a Priority Queue
 - Automated reminder notifications
 - Persistent task storage using CSV files
 - Mark tasks as completed
@@ -53,7 +53,7 @@ The application combines object-oriented programming with efficient data structu
 
 ---
 
-## 🧠 Core Concepts Demonstrated
+## 🧠 Core Concepts
 
 - Object-Oriented Programming
 - Standard Template Library (STL)
@@ -84,10 +84,10 @@ TaskPilot/
 ## ⚙️ How It Works
 
 1. Launch the application.
-2. Enter a CSV filename for storing tasks.
-3. Create and manage tasks through the interactive menu.
+2. Enter a CSV filename to store tasks.
+3. Create, update, and manage tasks through the interactive menu.
 4. Tasks are automatically saved to the CSV file.
-5. Existing tasks are loaded automatically the next time the application starts.
+5. Existing tasks are loaded automatically on subsequent runs.
 
 ---
 
@@ -95,13 +95,12 @@ TaskPilot/
 
 ### Prerequisites
 
-- Modern C++ Compiler (GCC 11+ recommended)
-- C++17 Support
+- GCC 11+ (or any compiler with C++17 support)
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/taskpilot.git
+git clone https://github.com/visheshvshah/taskpilot.git
 cd taskpilot
 ```
 
@@ -127,42 +126,14 @@ TaskPilot.exe
 
 ---
 
-## 📸 Screenshots
+## 👨‍💻 Author
 
-> Screenshots will be added soon.
+**Vishesh Shah**
 
----
+B.Tech in Mathematics & Computing  
+Dhirubhai Ambani University (DAU)
 
-## 🔮 Future Improvements
-
-Planned enhancements include:
-
-- Task search and filtering
-- Categories and labels
-- Calendar integration
-- Productivity statistics dashboard
-- SQLite / MySQL database support
-- Graphical User Interface (GUI)
-- Cloud synchronization
-- Intelligent task planning and scheduling
-- Export tasks to PDF / Excel
-- Theme customization
-
----
-
-## 🎯 Learning Outcomes
-
-This project demonstrates practical implementation of:
-
-- Modern C++
-- Object-Oriented Programming
-- Standard Template Library (STL)
-- Priority Queue
-- File Handling
-- CSV Data Persistence
-- Multithreading
-- Regular Expressions
-- Software Design Principles
+GitHub: https://github.com/visheshvshah
 
 ---
 
