@@ -1,0 +1,12 @@
+# Compiled executables
+*.exe
+*.out
+
+# Data files
+*.csv
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
