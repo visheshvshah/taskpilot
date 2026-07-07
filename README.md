@@ -5,36 +5,50 @@
 <h1 align="center">TaskPilot</h1>
 
 <p align="center">
-  <strong>An Intelligent Command-Line Task Management System built with Modern C++</strong>
+  <strong>A Modern C++ Command-Line Productivity Tool featuring Intelligent Task Scheduling, Deadline Tracking, and Persistent Storage.</strong>
 </p>
 
 <p align="center">
-TaskPilot simplifies personal task management through smart prioritization, automated reminders, and persistent local storage within a lightweight command-line interface.
+TaskPilot helps users efficiently organize, prioritize, and track their daily tasks through an interactive command-line interface powered by Modern C++.
 </p>
 
 ---
 
 ## 📖 Overview
 
-TaskPilot is a console-based task management application developed using Modern C++. It enables users to efficiently organize, prioritize, and monitor daily tasks through an interactive command-line interface.
+TaskPilot is a feature-rich command-line task management application developed using Modern C++. It is designed to simplify personal productivity by allowing users to organize, prioritize, monitor, and manage their daily tasks from a lightweight console application.
 
-The application combines object-oriented programming with efficient data structures to provide intelligent task scheduling, deadline tracking, reminder notifications, and persistent CSV-based storage. It demonstrates practical usage of Modern C++ features including STL, multithreading, regular expressions, and file handling.
+Managing multiple tasks manually often leads to missed deadlines and reduced productivity. TaskPilot addresses this challenge by providing a centralized platform where users can create, update, organize, and monitor tasks with intelligent scheduling and automated reminders.
+
+The application enables users to maintain a structured to-do list, assign priorities, update deadlines, track completed and pending tasks, identify overdue tasks, and receive intelligent recommendations on which task should be completed first based on urgency and priority.
+
+All tasks are stored locally using CSV-based persistent storage, ensuring that user data is preserved across multiple sessions. The project demonstrates practical implementation of Object-Oriented Programming, Modern C++17 features, STL containers, multithreading, regular expressions, priority queues, and file handling to solve a real-world productivity problem.
 
 ---
 
 ## ✨ Features
 
-- Create, update, and delete tasks
-- Assign priorities and deadlines
-- Intelligent task recommendation using a Priority Queue
-- Automated reminder notifications
-- Persistent task storage using CSV files
-- Mark tasks as completed
-- View pending and completed tasks
-- Deadline tracking
-- Input validation using Regular Expressions
-- Interactive command-line interface
-- Cross-platform compatibility (Windows & Linux)
+- ➕ Create new tasks with descriptions, priorities, and deadlines
+- ✏️ Update existing task details and deadlines
+- ❌ Delete tasks that are no longer required
+- ✅ Mark tasks as completed
+- 📋 View pending and completed tasks
+- ⏰ Track approaching and overdue deadlines
+- 🚨 Automatic reminder notifications for upcoming tasks
+- 🎯 Intelligent task recommendation based on priorities and deadlines
+- 📂 Persistent task storage using CSV files
+- 📊 Export tasks for structured offline viewing
+- 🔍 Input validation using Regular Expressions
+- 🖥️ Interactive command-line interface
+- 🌐 Cross-platform compatibility (Windows & Linux)
+
+---
+
+## 💡 Why TaskPilot?
+
+TaskPilot was built to demonstrate how Modern C++ can be applied to solve a practical productivity problem using efficient algorithms, robust software design, and modern programming concepts.
+
+Unlike a basic CRUD-based console application, TaskPilot integrates intelligent task prioritization, automated reminders, deadline tracking, persistent storage, multithreading, and input validation into a complete productivity solution.
 
 ---
 
@@ -53,9 +67,9 @@ The application combines object-oriented programming with efficient data structu
 
 ---
 
-## 🧠 Core Concepts
+## 🧠 Core Concepts Demonstrated
 
-- Object-Oriented Programming
+- Object-Oriented Programming (OOP)
 - Standard Template Library (STL)
 - Priority Queue Scheduling
 - File Handling
@@ -63,7 +77,7 @@ The application combines object-oriented programming with efficient data structu
 - Multithreading
 - Regular Expressions
 - Input Validation
-- Modular Function Design
+- Modular Programming
 - Software Design Principles
 
 ---
@@ -84,10 +98,13 @@ TaskPilot/
 ## ⚙️ How It Works
 
 1. Launch the application.
-2. Enter a CSV filename to store tasks.
-3. Create, update, and manage tasks through the interactive menu.
-4. Tasks are automatically saved to the CSV file.
-5. Existing tasks are loaded automatically on subsequent runs.
+2. Enter a CSV filename to store your tasks.
+3. Create, update, or remove tasks through the interactive menu.
+4. Assign priorities and deadlines to each task.
+5. Receive reminder notifications for upcoming deadlines.
+6. View pending, completed, and overdue tasks.
+7. Get intelligent recommendations for the next task based on priority and deadlines.
+8. Tasks are automatically saved and loaded during future sessions.
 
 ---
 
@@ -95,7 +112,8 @@ TaskPilot/
 
 ### Prerequisites
 
-- GCC 11+ (or any compiler with C++17 support)
+- GCC 11+ (or any compiler supporting C++17)
+- C++17 enabled compiler
 
 ### Clone the Repository
 
@@ -123,6 +141,22 @@ TaskPilot.exe
 ```bash
 ./TaskPilot
 ```
+
+---
+
+## ⚠️ Special Requirements
+
+> **Warning**
+>
+> TaskPilot uses multithreading to provide typing animations, reminder notifications, and timed delays throughout the application.
+>
+> The project has been tested successfully on supported C++17 compilers.
+>
+> If you encounter compilation or runtime issues, ensure that:
+>
+> - Your compiler supports the C++17 standard.
+> - Your operating system provides thread support.
+> - Appropriate thread execution permissions are available.
 
 ---
 
